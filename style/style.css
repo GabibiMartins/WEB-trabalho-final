@@ -113,6 +113,7 @@ footer {
     flex-direction: row;
     justify-content: left;
     margin-top: 40px;
+    
 }
 
 footer > p {
@@ -128,6 +129,12 @@ footer > ul > li {
     margin-inline: 50px;
 }
 
+footer li{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
 .aulas {
   display: flex;
   align-items: flex-start;
