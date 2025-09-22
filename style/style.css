@@ -51,7 +51,7 @@ header {
 }
 
 .hero {
-    background: linear-gradient(135deg, #1c0080 0%, #00428d 50%, #eff2ff 100%);
+    background: linear-gradient(135deg, #00e2c8 0%, #8ffffb 50%, #eff2ff 100%);
     padding: 60px;
     text-align: left;
     position: relative;
@@ -152,6 +152,14 @@ footer li{
   font-size: 40px;
   font-weight: 700;
   margin: 0;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  text-align:center;
+  padding: 15px;
 }
 
 .titulo .barra {
