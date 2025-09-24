@@ -6,6 +6,7 @@
         <title>Núbia Rocha - Local</title>
         <link rel="stylesheet" href="/style/style.css">
     </head>
+
     <body>
         <header>
             <div class="menu">
@@ -26,7 +27,15 @@
 
             <div class="infra-container">
                 <div class="infra-card">
-                    <img src="/imgs/fundobranco.jpg" alt="IMAGEM" id="infra-img"/>
+                    <div class="carousel">
+                        <div class="carousel-images">
+                            <img src="/imgs/infra1-teste.jpg" alt="Infra 1">
+                            <img src="/imgs/infra2-teste.jpg" alt="Infra 2">
+                            <img src="/imgs/infra3-teste.jpg" alt="Infra 3">
+                        </div>
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
                     <p class="infra-desc">Breve descrição</p>
                 </div>
 
@@ -36,8 +45,6 @@
             </div>
         </section>
 
-
-
         <footer>
             <p><b>Contatos:</b></p>
             <ul>
@@ -46,5 +53,42 @@
                 <li> <a href="https://www.instagram.com/nubiarochaescolademusica?utm_source=ig_web_button_share_sheet&igsh=MXZiZm01dmZ0b2EzeA==">@nubiarochaescolademusica</li>
             </ul>
         </footer>
+
+        <script>
+            let index = 0;
+            const images = document.querySelectorAll('.carousel-images img');
+            const total = images.length;
+            const container = document.querySelector('.carousel-images');
+            const desc = document.querySelector('.infra-desc');
+
+            // descrições correspondentes a cada imagem
+            const descriptions = [
+                "Sala de piano equipada com instrumentos modernos",
+                "Sala de violão com ambiente aconchegante",
+                "Auditório para apresentações dos alunos"
+            ];
+
+            function showSlide(i) {
+                if (i >= total) index = 0;
+                if (i < 0) index = total - 1;
+                container.style.transform = `translateX(${-index * 100}%)`;
+
+                // atualiza a descrição
+                desc.textContent = descriptions[index];
+            }
+
+            document.querySelector('.next').addEventListener('click', () => {
+                index++;
+                showSlide(index);
+            });
+
+            document.querySelector('.prev').addEventListener('click', () => {
+                index--;
+                showSlide(index);
+            });
+
+            // inicia no slide 0
+            showSlide(index);
+        </script>
     </body>
 </html>

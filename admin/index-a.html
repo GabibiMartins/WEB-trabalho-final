@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aulas Ofertadas</title>
+        <link rel="stylesheet" href="/style/style-aulas.css">
+    </head>
+
+    <body>
+    <!-- Sidebar -->
+    <div class="sidebar collapsed" id="sidebar">
+        <div class="logo">
+            <img src="/imgs/logotipo.png" alt="Logo">
+        </div>
+        <ul class="menu">
+            <li><i>🎵</i> <a href="/admin/index-a.html"><span>Aulas</span></a></li>
+            <li><i>➕</i> <a href="/admin/produtos.html"><span>Produtos</span></a></li>
+        </ul>
+    </div>
+
+    <!-- Conteúdo -->
+    <div class="content">
+        <button class="toggle-btn" onclick="toggleMenu()">☰</button>
+
+        <div class="topbar">
+        <h1>Aulas Ofertadas</h1>
+        <div class="search">
+            <input type="text" placeholder="Buscar...">
+        </div>
+        <div class="actions">
+            <button>Excluir</button>
+            <button>Editar</button>
+            <button>Adicionar</button>
+        </div>
+        </div>
+
+        <div class="grid">
+        <!-- Professores -->
+        <div class="card">
+            <div class="card-header">Professor</div>
+            <div class="card-body">
+            <div class="rows">
+                <div class="row"></div>
+                <div class="row"></div>
+                <div class="row"></div>
+                <div class="row"></div>
+                <div class="row"></div>
+            </div>
+            <div class="pagination">
+                <button>&laquo;</button>
+                <button>&lt;</button>
+                <span>1 de 7</span>
+                <button>&gt;</button>
+                <button>&raquo;</button>
+            </div>
+            </div>
+        </div>
+
+        <!-- Instrumentos -->
+        <div class="card">
+            <div class="card-header">Instrumento</div>
+            <div class="card-body">
+            <div class="rows">
+                <div class="row"></div>
+                <div class="row"></div>
+                <div class="row"></div>
+                <div class="row"></div>
+                <div class="row"></div>
+            </div>
+            <div class="pagination">
+                <button>&laquo;</button>
+                <button>&lt;</button>
+                <span>1 de 7</span>
+                <button>&gt;</button>
+                <button>&raquo;</button>
+            </div>
+            </div>
+        </div>
+        </div>
+
+    </div>
+
+    <script>
+        function toggleMenu() {
+        document.getElementById("sidebar").classList.toggle("collapsed");
+        }
+    </script>
+    </body>
+</html>
