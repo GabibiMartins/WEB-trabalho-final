@@ -51,7 +51,7 @@ header {
 }
 
 .hero {
-    background: #F91C6A;
+    background:linear-gradient(#FADA4E,#ffe987 );
     padding: 60px;
     text-align: left;
     position: relative;
@@ -313,7 +313,7 @@ animation: rotate 20s linear infinite;
 .inner-circle {
 width: 200px;
 height: 200px;
-background-color: #d3d3d3;
+background-image: url('/imgs/nubia.png');
 border-radius: 50%;
 position: absolute;
 top: 50%;
@@ -443,7 +443,6 @@ to {
 }
 
 .produtos-section {
-    background-color: #d3d3d3;
     padding: 60px 40px;
     max-width: 1200px;
     margin: 0 auto;
