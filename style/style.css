@@ -154,71 +154,70 @@ footer > ul > li:hover, footer > ul > li > a:hover {
 }
 
 .aulas {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 50px;
-  margin: 60px auto;
-  max-width: 1000px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+    margin: 60px auto;
+    max-width: 1000px;
 }
 
 .titulo {
-  flex: 1;
+    flex: 1;
 }
 
 .titulo h2 {
-  font-size: 40px;
-  font-weight: 700;
-  margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
 }
 
 h3 {
-  font-size: 18px;
-  font-weight: 700;
-  margin: 0;
-  text-align:center;
-  padding: 15px;
-  color: #17385A;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    text-align:center;
+    padding: 15px;
 }
 
 .titulo .barra {
-  display: inline-block;
-  width: 6px;
-  height: 30px;
-  background: black;
-  margin-right: 8px;
-  vertical-align: middle;
+    display: inline-block;
+    width: 6px;
+    height: 30px;
+    background: black;
+    margin-right: 8px;
+    vertical-align: middle;
 }
 
 .titulo small {
-  display: block;
-  font-weight: 400;
-  margin-left: 100px;
+    display: block;
+    font-weight: 400;
+    margin-left: 100px;
 }
 
 .titulo p {
-  margin-top: 8px;
-  font-size: 14px;
-  color: #999999;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #999999;
 }
 
 .grid-aulas {
-  flex: 3;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
 }
 
 .aula h3 {
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
 }
 
 .aula p {
-  font-size: 14px;
-  color: #999999;
-  line-height: 1.4;
+    font-size: 14px;
+    color: #999999;
+    line-height: 1.4;
 }
 
 .instrumentos-section {
@@ -273,11 +272,11 @@ h3 {
 }
 
 .section-title {
-font-size: 2.5rem;
-font-weight: bold;
-color: #17385a;
-margin-bottom: 60px;
-letter-spacing: -0.02em;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #17385a;
+    margin-bottom: 60px;
+    letter-spacing: -0.02em;
 }
 
 .content-container {
@@ -288,159 +287,62 @@ letter-spacing: -0.02em;
     flex-wrap: wrap;
 }
 
-.visual-element {
-flex: 1;
-min-width: 300px;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-.circular-design {
-position: relative;
-width: 280px;
-height: 280px;
-}
-
-.outer-circle {
-width: 100%;
-height: 100%;
-border: 3px dashed #bbb;
-border-radius: 50%;
-position: relative;
-animation: rotate 20s linear infinite;
-}
-
-.inner-circle {
-width: 200px;
-height: 200px;
-background-image: url('/images/nubia.png');
-border-radius: 50%;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-display: flex;
-align-items: center;
-justify-content: center;
-box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-}
-
-.music-note {
-position: absolute;
-font-size: 24px;
-color: #2c3e50;
-animation: float 3s ease-in-out infinite;
-}
-
-.note-1 {
-top: 10%;
-left: 20%;
-animation-delay: 0s;
-}
-
-.note-2 {
-top: 20%;
-right: 15%;
-animation-delay: 1s;
-}
-
-.note-3 {
-bottom: 15%;
-left: 15%;
-animation-delay: 2s;
-}
-
-.note-4 {
-bottom: 10%;
-right: 20%;
-animation-delay: 1.5s;
-}
-
 .text-content {
-flex: 1;
-min-width: 300px;
-text-align: left;
-}
-
-.content-title {
-font-size: 1.8rem;
-font-weight: 600;
-color:#17385a;
-margin-bottom: 25px;
-}
-
-.content-text {
-font-size: 1.1rem;
-line-height: 1.7;
-color: #555;
-text-align: justify;
-}
-
-@keyframes rotate {
-from {
-    transform: rotate(0deg);
-}
-to {
-    transform: rotate(360deg);
-}
-}
-
-@keyframes float {
-0%, 100% {
-    transform: translateY(0px);
-}
-50% {
-    transform: translateY(-10px);
-}
-}
-
-@media (max-width: 768px) {
-.content-container {
-    flex-direction: column;
-    gap: 40px;
-}
-
-.section-title {
-    font-size: 2rem;
-    margin-bottom: 40px;
-}
-
-.text-content {
-    text-align: center;
-}
-
-.content-text {
+    flex: 1;
+    min-width: 300px;
     text-align: left;
 }
 
-.circular-design {
-    width: 240px;
-    height: 240px;
-}
-
-.inner-circle {
-    width: 160px;
-    height: 160px;
-}
-}
-
-@media (max-width: 480px) {
-.trajectory-section {
-    padding: 60px 15px;
-}
-
-.section-title {
-    font-size: 1.8rem;
-}
-
 .content-title {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color:#17385a;
+    margin-bottom: 25px;
 }
 
 .content-text {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #555;
+    text-align: justify;
 }
+
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 40px;
+    }
+
+    .text-content {
+        text-align: center;
+    }
+
+    .content-text {
+        text-align: left;
+    }
+}
+
+@media (max-width: 480px) {
+    .trajectory-section {
+        padding: 60px 15px;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    .content-title {
+        font-size: 1.5rem;
+    }
+
+    .content-text {
+        font-size: 1rem;
+    }
 }
 
 .produtos-section {
@@ -471,7 +373,6 @@ to {
     align-items: center;
     cursor: pointer;
     transition: transform 0.3s ease;
-
 }
 
 .produto-card:hover {
@@ -481,7 +382,7 @@ to {
 .produto-imagem {
     width: 150px;
     height: 150px;
-    border: 5px solid #17385A;
+    border: 2px solid #333;
     border-radius: 15px;
     background: repeating-linear-gradient(
         45deg,
@@ -566,7 +467,8 @@ to {
 
 .infra-card {
     flex: 2;
-    background-color:#17385A;
+    background-color:#17385a;
+    opacity: 75;
     border-radius: 20px;
     padding: 40px;
     display: flex;
@@ -637,7 +539,7 @@ to {
 
 .infra-desc {
     font-size: 18px;
-    color: #ffffff;
+    color: white;
     text-align: center;
     margin-top: 30px;
 }
