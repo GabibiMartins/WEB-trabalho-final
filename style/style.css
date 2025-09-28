@@ -564,7 +564,7 @@ to {
 
 .infra-card {
     flex: 2;
-    background-color: #d0d0d0;
+    background-color:#17385A;
     border-radius: 20px;
     padding: 40px;
     display: flex;
@@ -635,14 +635,14 @@ to {
 
 .infra-desc {
     font-size: 18px;
-    color: #333;
+    color: #ffffff;
     text-align: center;
     margin-top: 30px;
 }
 
 .infra-lateral {
     flex: 0 0 200px; 
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     overflow: hidden;
