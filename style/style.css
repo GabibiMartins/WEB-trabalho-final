@@ -71,7 +71,7 @@ header {
     right: 60px;
     width: 300px;
     height: 300px;
-    background-image: url("/imgs/guitar-svgrepo-com.svg");
+    background-image: url("/images/guitar-svgrepo-com.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -118,7 +118,7 @@ footer {
     flex-direction: row;
     justify-content: left;
     margin-top: 40px;
-    background-image: url('/imgs/background-footer.jpg');
+    background-image: url('/images/background-footer.jpg');
     background-repeat: repeat;
     background-size: 90px auto; /* controla o tamanho de cada "tile" */
     background-position: 0 0;
@@ -178,6 +178,7 @@ h3 {
   margin: 0;
   text-align:center;
   padding: 15px;
+  color: #17385A;
 }
 
 .titulo .barra {
@@ -313,7 +314,7 @@ animation: rotate 20s linear infinite;
 .inner-circle {
 width: 200px;
 height: 200px;
-background-image: url('/imgs/nubia.png');
+background-image: url('/images/nubia.png');
 border-radius: 50%;
 position: absolute;
 top: 50%;
@@ -470,6 +471,7 @@ to {
     align-items: center;
     cursor: pointer;
     transition: transform 0.3s ease;
+
 }
 
 .produto-card:hover {
@@ -479,7 +481,7 @@ to {
 .produto-imagem {
     width: 150px;
     height: 150px;
-    border: 2px solid #333;
+    border: 5px solid #17385A;
     border-radius: 15px;
     background: repeating-linear-gradient(
         45deg,
