@@ -19,3 +19,8 @@ O site tem como objetivo expandir as vendas e apresentar de forma mais organizad
 Wireframes: https://www.figma.com/proto/nhEq3Nmu9psdwfhwyPgx3N/Wireframes?node-id=0-1&t=OAPtGLksDiCVoTo7-1   
 
 https://www.figma.com/proto/nhEq3Nmu9psdwfhwyPgx3N/Wireframes?node-id=33-67&p=f&t=7VkKplR0xh1RcVTN-0&scaling=min-zoom&content-scaling=fixed&page-id=33%3A48&starting-point-node-id=33%3A67
+
+# Banco de Dados
+# Modelo conceitual
+
+![Modelo conceitual](db/Conceitual_1.png)
