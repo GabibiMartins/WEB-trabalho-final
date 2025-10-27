@@ -70,3 +70,8 @@ descrição: detalhes ou características do instrumento.
 
 # Modelo lógico
 ![Modelo conceitual](db/modelologico.png)
+
+## Modelo Físico
+
+- [📄 DDL.sql](./db/DDL.sql): contém os comandos **CREATE TABLE** para criar as tabelas do banco.
+- [💾 DML.sql](./db/DML.sql): contém os comandos **INSERT INTO** para inserir os dados nas tabelas.
